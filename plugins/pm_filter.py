@@ -504,7 +504,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('ℹ️ ʜᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about')
                 ],[
-                    InlineKeyboardButton('💥 ᴊᴏɪɴ ᴏᴜʀ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ 💥', url='https://t.me/MOVIE_ROCKERS_MR')
+                    InlineKeyboardButton('💥 ᴊᴏɪɴ ᴏᴜʀ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ 💥', url='https://t.me/+6G4Wdj9qyII1Yzc1')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.delete()
@@ -566,7 +566,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about_menu":
         buttons = [[
-        InlineKeyboardButton('MR MOVIES', url='https://t.me/MOVIE_ROCKERS_MR'),
+        InlineKeyboardButton('MR MOVIES', url='https://t.me/+6G4Wdj9qyII1Yzc1'),
         InlineKeyboardButton('NEW MOVIES', url='https://t.me/+qYEfmWJFZQ80Njk1'),
         InlineKeyboardButton('BACK', callback_data='start')
         ]]
